@@ -3,14 +3,74 @@
         {
             "name": "/rank",
             "description": "現在のレベルとXPを表示します。",
-            "usage": "/rank [user]",
+            "usage": "/rank [ユーザー]",
             "category": "Leveling"
+        },
+        {
+            "name": "/leaderboard",
+            "description": "サーバー内のレベルランキングを表示します。",
+            "usage": "/leaderboard",
+            "category": "Leveling"
+        },
+        {
+            "name": "/server",
+            "description": "サーバーの概要情報を表示します。",
+            "usage": "/server",
+            "category": "Utility"
+        },
+        {
+            "name": "/user",
+            "description": "ユーザーの情報を表示します。",
+            "usage": "/user [ユーザー]",
+            "category": "Utility"
         },
         {
             "name": "/ticketpanel",
             "description": "チケット作成用のパネルを設置します。",
             "usage": "/ticketpanel",
             "category": "Utility"
+        },
+        {
+            "name": "/rolepanel",
+            "description": "ロール付与用のパネルを作成・編集・再投稿します。",
+            "usage": "/rolepanel",
+            "category": "Utility"
+        },
+        {
+            "name": "/kick",
+            "description": "メンバーをサーバーからキックします。",
+            "usage": "/kick <ユーザー> [理由]",
+            "category": "Admin"
+        },
+        {
+            "name": "/ban",
+            "description": "メンバーをサーバーからバンします。",
+            "usage": "/ban <ユーザー> [理由]",
+            "category": "Admin"
+        },
+        {
+            "name": "/timeout",
+            "description": "メンバーをタイムアウト（一時的な隔離）にします。",
+            "usage": "/timeout <ユーザー> <duration> [理由]",
+            "category": "Admin"
+        },
+        {
+            "name": "/purge",
+            "description": "指定した数のメッセージを一括削除します。",
+            "usage": "/purge <amount>",
+            "category": "Admin"
+        },
+        {
+            "name": "/permission",
+            "description": "チャンネルやロールの権限を GUI 的に編集します。",
+            "usage": "/permission",
+            "category": "Admin"
+        },
+        {
+            "name": "/config",
+            "description": "サーバーごとのボット設定をカスタマイズします。",
+            "usage": "/config",
+            "category": "Settings"
         }
     ],
     "yuudj": [
@@ -29,13 +89,13 @@
         {
             "name": "/play",
             "description": "音楽を再生、またはキューに曲を追加します。",
-            "usage": "/play [URL/ワード]",
+            "usage": "/play <URL/ワード>",
             "category": "Music"
         },
         {
             "name": "/search",
             "description": "検索結果の候補から曲を選択してキューに追加します。",
-            "usage": "/search [ワード]",
+            "usage": "/search <ワード>",
             "category": "Music"
         },
         {
@@ -47,7 +107,7 @@
         {
             "name": "/lyrics",
             "description": "タイトルとアーティストから歌詞を表示します。",
-            "usage": "/lyrics [タイトル] [アーティスト]",
+            "usage": "/lyrics <タイトル> <アーティスト>",
             "category": "Music"
         },
         {
