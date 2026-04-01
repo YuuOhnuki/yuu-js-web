@@ -1,0 +1,90 @@
+{
+    "yuujs": [
+        {
+            "name": "/rank",
+            "description": "現在のレベルとXPを表示します。",
+            "usage": "/rank [user]",
+            "category": "Leveling"
+        },
+        {
+            "name": "/ticketpanel",
+            "description": "チケット作成用のパネルを設置します。",
+            "usage": "/ticketpanel",
+            "category": "Utility"
+        }
+    ],
+    "yuudj": [
+        {
+            "name": "/help",
+            "description": "利用可能なすべてのコマンドとヘルプを表示します。",
+            "usage": "/help",
+            "category": "Utility"
+        },
+        {
+            "name": "/version",
+            "description": "ボットのバージョン情報を表示します。",
+            "usage": "/version",
+            "category": "Utility"
+        },
+        {
+            "name": "/play",
+            "description": "音楽を再生、またはキューに曲を追加します。",
+            "usage": "/play [URL/ワード]",
+            "category": "Music"
+        },
+        {
+            "name": "/search",
+            "description": "検索結果の候補から曲を選択してキューに追加します。",
+            "usage": "/search [ワード]",
+            "category": "Music"
+        },
+        {
+            "name": "/filter",
+            "description": "低音ブーストやナイトコアなどのオーディオフィルターを適用します。",
+            "usage": "/filter",
+            "category": "Music"
+        },
+        {
+            "name": "/lyrics",
+            "description": "タイトルとアーティストから歌詞を表示します。",
+            "usage": "/lyrics [タイトル] [アーティスト]",
+            "category": "Music"
+        },
+        {
+            "name": "/nowplaying",
+            "description": "現在再生中の曲の情報を操作ボタン付きで表示します。",
+            "usage": "/nowplaying",
+            "category": "Music"
+        },
+        {
+            "name": "/loop",
+            "description": "ループモードを切り替えます。",
+            "usage": "/loop",
+            "category": "Music"
+        },
+        {
+            "name": "/shuffle",
+            "description": "キューの曲をシャッフルします。",
+            "usage": "/shuffle",
+            "category": "Music"
+        },
+        {
+            "name": "/skip",
+            "description": "現在の曲をスキップします。",
+            "usage": "/skip",
+            "category": "Music"
+        },
+        {
+            "name": "/stop",
+            "description": "再生を停止します。",
+            "usage": "/stop",
+            "category": "Music"
+        },
+        {
+            "name": "/disconnect",
+            "description": "ボットを退出させます。",
+            "usage": "/disconnect",
+            "category": "Music"
+        }
+    ]
+}
